@@ -7,7 +7,8 @@ import base64
 st.set_page_config(layout="wide")
 st.title("E-commerce Image Extractor")
 
-st.write('Upload a csv file with a list of product URLs in a column called Product URL')
+st.write('Upload a csv file with a list of product URLs in a column called Product URL.')
+st.write('The app will extract the URLs for each product image on the page and allow you to download the list as a csv.')
 uploaded_file = st.file_uploader("Upload a CSV file", type=["csv"])
 
 
